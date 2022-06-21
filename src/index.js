@@ -30,7 +30,7 @@ function createPokemonCard(card) {
   let liEl2 = document.createElement("li")
   liEl2.textContent = "HP: 45";
   let liEl3 = document.createElement("li")
-  liEl3.textContent = "HP: 45";
+  liEl3.textContent = "ATTACK 49";
   let liEl4 = document.createElement("li")
   liEl4.textContent = "DEFENSE: 49"
   let liEl5 = document.createElement("li")
@@ -41,7 +41,7 @@ function createPokemonCard(card) {
   liEl7.textContent ="SPEED: 45"
   
 
-  // @ts-ignore
+//   @ts-ignore
 
   liEl.append(h2El, imgEl,ulEl2);
   ulEl.append(liEl)
@@ -49,12 +49,12 @@ function createPokemonCard(card) {
 }
 
 createPokemonCard();
-createPokemonCard();
-createPokemonCard();
-createPokemonCard();
-createPokemonCard();
-createPokemonCard();
-createPokemonCard();
+
+// let newData = []
+// for(let item of data){
+//     newData.push(item.name)
+//     console.log(newData)
+// }
 
 
 // Tips
